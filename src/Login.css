@@ -1,0 +1,48 @@
+.login{
+    background-color: #f8f8f8;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+.login__container{
+    padding: 100px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-image: linear-gradient(to right, #7843e6, #ff00ff);
+    background-size: 300%;
+    animation: bg-animation 3s infinite alternate;
+}
+
+.login__container > img {
+    object-fit: contain;
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+.login__container > button {
+    margin-top: 50px;
+    text-transform: inherit !important;
+    background-image: linear-gradient(#6fd6ff, #bff0cf);
+    color: #000;
+}
+
+.login__text{
+    background-image: linear-gradient(#6fd6ff, #bff0cf);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+@keyframes bg-animation{
+    0%{
+      background-position: left;
+    }
+    100%{
+      background-position: right;
+    }
+}
