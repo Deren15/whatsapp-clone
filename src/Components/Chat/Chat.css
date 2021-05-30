@@ -88,11 +88,17 @@
     outline-width: 0;
 }
 
-.chat__footer > form > button {
-    display: none;
-}
-
 .chat__footer > .MuiSvgIcon-root {
      padding: 10px;
      color: gray;
+}
+
+.chat__sendBtn{
+    color: #128C7E;
+    border-radius: 50%;
+    margin-left:5px;
+}
+
+.chat__iconBtn{
+    padding: 10px;
 }
