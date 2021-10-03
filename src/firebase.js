@@ -2,6 +2,7 @@ import firebase from 'firebase'
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
+  // we can use this without dotenv
     apiKey: "AIzaSyBEUBOny7krWWZX50yfHPphSdfpnsSdY1c",
     authDomain: "whatsapp-7d376.firebaseapp.com",
     projectId: "whatsapp-7d376",
